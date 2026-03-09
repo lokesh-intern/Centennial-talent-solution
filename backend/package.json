@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.ts",
-    "build": "tsc"
+    "build": "npm install && tsc"
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
