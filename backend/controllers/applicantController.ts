@@ -22,7 +22,7 @@ export const registerController = async (
   try {
     const { password, ...rest } = req.body
     const resumeFile = req.file as Express.Multer.File | undefined
-
+    console.log(rest)
 
     const existingUser = await Applicant.findOne({ email: rest.email })
     if (existingUser) {
