@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken'
 import type { Request, Response, NextFunction } from 'express'
-import type  JWTPayload  from '../types/JWTPayload.ts'
+import type JWTPayload from '../types/JWTPayload.js'
 
 
 const verifyToken = (req: Request, res: Response, next: NextFunction) => {
@@ -12,14 +12,14 @@ const verifyToken = (req: Request, res: Response, next: NextFunction) => {
     }
 
     const secret = process.env.JWT_SECRET as string;
-    try{
+    try {
       const decoded = jwt.verify(token, secret) as JWTPayload;
       req.user = decoded;
       console.log(decoded);
-    }catch(e){
+    } catch (e) {
       console.log('Error at token verification');
       return res.status(403).json({ message: "Invalid token" });
-      
+
     }
 
     next();

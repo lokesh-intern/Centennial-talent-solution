@@ -1,4 +1,4 @@
-import cloudinary from "../auth/cloudinary.ts";
+import cloudinary from "../auth/cloudinary.js";
 
 export const uploadToCloudinary = async (
   fileBuffer: Buffer
@@ -10,7 +10,7 @@ export const uploadToCloudinary = async (
     const stream = cloudinary.uploader.upload_stream(
       {
         folder: "user_uploads",
-        resource_type: "raw", 
+        resource_type: "raw",
       },
       (error, result) => {
         if (error) return reject(error);

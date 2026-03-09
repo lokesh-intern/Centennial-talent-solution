@@ -1,0 +1,1 @@
+﻿controllers/applicantController.ts(6,8): error TS1484: 'JWTPayload' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.

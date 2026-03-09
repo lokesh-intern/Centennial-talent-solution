@@ -1,0 +1,14 @@
+﻿controllers/applicantController.ts(2,23): error TS5097: An import path can only end with a '.ts' extension when 'allowImportingTsExtensions' is enabled.
+controllers/applicantController.ts(4,36): error TS5097: An import path can only end with a '.ts' extension when 'allowImportingTsExtensions' is enabled.
+controllers/applicantController.ts(6,8): error TS1192: Module '"D:/GIT/job-portal/backend/types/JWTPayload"' has no default export.
+controllers/applicantController.ts(6,24): error TS5097: An import path can only end with a '.ts' extension when 'allowImportingTsExtensions' is enabled.
+middleware/jwtAuth.ts(3,14): error TS1192: Module '"D:/GIT/job-portal/backend/types/JWTPayload"' has no default export.
+routes/applicantRoutes.ts(5,8): error TS5097: An import path can only end with a '.ts' extension when 'allowImportingTsExtensions' is enabled.
+routes/applicantRoutes.ts(6,20): error TS5097: An import path can only end with a '.ts' extension when 'allowImportingTsExtensions' is enabled.
+routes/applicantRoutes.ts(7,25): error TS5097: An import path can only end with a '.ts' extension when 'allowImportingTsExtensions' is enabled.
+server.ts(8,21): error TS5097: An import path can only end with a '.ts' extension when 'allowImportingTsExtensions' is enabled.
+server.ts(9,29): error TS5097: An import path can only end with a '.ts' extension when 'allowImportingTsExtensions' is enabled.
+server.ts(10,44): error TS5097: An import path can only end with a '.ts' extension when 'allowImportingTsExtensions' is enabled.
+server.ts(11,25): error TS5097: An import path can only end with a '.ts' extension when 'allowImportingTsExtensions' is enabled.
+server.ts(12,18): error TS5097: An import path can only end with a '.ts' extension when 'allowImportingTsExtensions' is enabled.
+services/cloud.ts(1,24): error TS5097: An import path can only end with a '.ts' extension when 'allowImportingTsExtensions' is enabled.

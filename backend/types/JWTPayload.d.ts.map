@@ -1,0 +1,1 @@
+{"version":3,"file":"JWTPayload.d.ts","sourceRoot":"","sources":["JWTPayload.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,OAAO,WAAW,UAAU;IAC/B,EAAE,EAAE,MAAM,CAAC;IACX,IAAI,EAAE,MAAM,CAAC;IACb,KAAK,EAAE,MAAM,CAAC;IACd,KAAK,EAAE,MAAM,CAAC;CACf"}
